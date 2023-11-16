@@ -28,7 +28,7 @@ header nav h1 {
     border-bottom: 3px solid var(--primary);
 }
 
-header nav a{
+/* header nav a{
     text-decoration: none;
     padding: 6px;
     border-radius: 4px;
@@ -36,7 +36,7 @@ header nav a{
 
 header nav a.active {
     background: var(--primary);
-}
+} */
 
 main {
     max-width: 1200px;
@@ -71,21 +71,47 @@ form button{
 }
 
 /* help layout */
-.help-layout nav {
+nav {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin: 30px 0;
 }
-.help-layout nav a{
+nav a{
     padding: 10px;
     border: 2px solid white;
     border-radius: 4px;
     text-decoration: none;
 }
-.help-layout nav a:hover{
+nav a:hover{
     border-color: var(--primary);
 }
-.help-layout nav a.active {
+nav a.active {
     background: var(--primary);
+}
+.careers > a {
+    display: block;
+    background: rgba(0,0,0,0.2);
+    padding: 20px;
+    border-radius: 4px;
+    margin: 20px 0;
+    text-decoration: none;
+}
+.careers > a:hover p {
+    color: var(--primary);
+}
+.careers p {
+    margin: 0;
+}
+.careers > a p:last-child {
+   font-size: 0.8em;
+   color: #bbb;
+}
+
+.career-details{
+    background-color: rgba(0,0,0,0.2);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 30px;
 }
